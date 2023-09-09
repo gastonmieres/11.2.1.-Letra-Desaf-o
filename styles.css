@@ -1,0 +1,50 @@
+body {
+    background-color: #628E90;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid #F5EFE6; 
+    border-radius: 10px; 
+    width: 400px;
+    margin: 1rem auto;
+    background-color: #B4CDE6;
+    text-align: center;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: -14px; /* Coloca el párrafo en el borde inferior */
+    right: 0; /* Coloca el párrafo en el borde derecho */
+    padding: 10px; /* Espacio de relleno para un mejor aspecto */
+    background-color: #B4CDE6;
+    color: black; /* Color de texto principal */
+    border: 2px solid #F5EFE6;
+}
+
+button {
+    background-color: #F5EFE6;
+    border: 2px solid #628E90;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="date"] {
+    width: 96%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #628E90;
+    border-radius: 3px;
+    text-align: left; /* Alinea las etiquetas a la izquierda */
+    margin-left: 3.5px;
+}
+
+label, input {
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: block; /* Hace que las etiquetas se comporten como elementos de bloque (ocuparán toda la línea) */
+    padding: 5px;
+}
+

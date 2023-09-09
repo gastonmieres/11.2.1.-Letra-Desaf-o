@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Formulario de registro</title>
 </head>
 
 <body>
+    <div class="container">
     <h1>Formulario de registro</h1>
     <form id="user_form">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required> <br> <br>
+        <label for="nombre">Nombre:</label>  
+        <input type="text" id="nombre" name="nombre" required> <br>
 
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required> <br> <br>
+        <label for="apellido">Apellido:</label> 
+        <input type="text" id="apellido" name="apellido" required> <br>
 
         <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required> <br> <br>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required> <br>
 
         <button type="submit">Enviar</button>
     </form>
+</div>
 
     <div id="response"></div>
+
+    <p class="footer-text">A website by Gastón Mieres</p>
 
     <script src="user.js"></script>  
 </body>
